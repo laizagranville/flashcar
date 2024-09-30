@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(221, 18, 18);
+    background-color: rgb(13, 145, 57);
     font-family:Bai jamjuree;
 } 
 
@@ -8,10 +8,17 @@ body{
 }
 .cartão{
     margin: 1rem 1rem;
-    background-color: rgba(255, 0, 0, 0.808);
+    background-color: rgba(27, 199, 50, 0.808);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
+}
+
+
+.cartão--conteudo{
+    text-align: center;
+    background-color: rgb(31, 255, 2);
+    height: 100%;
 }
 
     footer{
