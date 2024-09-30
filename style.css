@@ -1,9 +1,20 @@
 body{
-    background-color: red;
+    background-color: rgb(221, 18, 18);
     font-family:Bai jamjuree;
 } 
 
-footer{
+#container{
+    display: flex;
+}
+.cartão{
+    margin: 1rem 1rem;
+    background-color: rgba(255, 0, 0, 0.808);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+    footer{
     background-color: black;
     color: white;
     position: fixed;
@@ -12,7 +23,7 @@ footer{
     height: 2rem;
 }
 
-footer p{
+    footer p{
     text-align: center;
     font-size: 0.75rem;
     margin-top: 0.5rem;
