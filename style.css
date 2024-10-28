@@ -72,3 +72,7 @@ body{
  .cartão__conteudo_reposta{
     backface-visibility: hidden;
  }
+
+ .cartão__conteudo_reposta{
+    transform: rotateY(180deg);
+ }
