@@ -51,18 +51,24 @@ body{
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
 }
  
- .cartão__conteudo_pergunto p { 
+ .cartão__conteudo_pergunta p { 
     color: var(--text-color);
     font-weight: 500;
  }
 
- .cartão__conteudo_pergunto p {
+ .cartão__conteudo_reposta p {
     color: var(--card-back-color);
     font-weight: 700;
  }
 
  .cartão:hover.cartão__conteudo{
      transform: rotateY(180deg);
+ }
+
+ .cartão__conteudo_pergunta,
+ .cartão__conteudo_reposta{
+    backface-visibility: hidden;
  }
