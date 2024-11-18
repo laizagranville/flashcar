@@ -1,17 +1,21 @@
- criarCartao(
+ criarCartao{
     'Programação'
     'O que é JavaScript'
     'O Javascript é uma linguagem de programação'
- )
+ 
+ }
 
-criarCartao(
+
+criarCartao{
     'Geografia'
-    'Qual a capital da França?'
-    'A capital da França é Paris'
-)
+    'o que 'Programação'
+    'O que é JavaScript'
+    'O Javascript é uma linguagem de programação'
 
-criarCartao(
-    'Programação'
+}
+
+criarCartao{
+Programação'
     'O que é uma função?'
     'A função é um bloco de código que executa alguma tarefa'
-)
+}
