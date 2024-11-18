@@ -3,15 +3,23 @@ function cricartao(categoria, pergunta, resposta) {
     let cartao = document.createElement('article')
     cartao.className = ('cartao')
 
-    cartao.innerHTML =  <div class="cartao__conteudo">
-    <h3>progamação</h3>
+    cartao.innerHTML = 
+     <div class="cartao__conteudo">
+    <h3>$(categoria)</h3>
       <div class="cartao__conteudo__pergunta">
-       <p>python?</p>
+       <p>$(pergunta)</p>
       </div>
-    <div class="cartao__conteudo__pergunta">
- <p> O javaScript é uma linguaguem de progamação.</p>
-</div>
-</div>
+     <div class="cartao__conteudo__pergunta">
+    <p> $(resposta)</p>
+  </div>
+ </div>
+
+ let respostaEstaVisivível = false
+ function viracartao(){
+    respostaEstaVisivível = !respostaEstaVisível
+    cartao.classList.toggle('active', respostaEstaVisivível)
+ }
+  cartao.eddEventListener('click', viracartao)
 
  container.appendChild(cartao)
 }

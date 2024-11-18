@@ -78,7 +78,7 @@
       font-weight: 700;
     }
   
-  .cartao:hover_.cartao__conteudo {
+  .cartao:active.cartao__conteudo {
   
     transform:  rotateY(180deg);
     
